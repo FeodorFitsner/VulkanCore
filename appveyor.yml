@@ -2,6 +2,6 @@ image: Visual Studio 2017
 
 build_script:
 - dotnet restore
-- dotnet build
+- dotnet build VulkanCore.sln
 
 test: off
